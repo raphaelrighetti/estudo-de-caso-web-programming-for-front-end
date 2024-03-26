@@ -1,0 +1,86 @@
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 1rem;
+}
+
+#form-busca {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-block: 2rem;
+}
+
+#form-busca input {
+  padding: .5rem;
+}
+
+#form-busca button {
+  padding: .5rem;
+}
+
+#section-personagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 6rem;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
+#container-personagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.personagem-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.personagem-card img {
+  width: 200px;
+  height: 200px;
+}
+
+.personagem-card h3 {
+  font-weight: bold;
+}
+
+.personagem-card h4 {
+  color: green;
+}
+
+#barra-navegacao {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  width: 80%;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+
+#barra-navegacao button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: none;
+  background: none;
+}
+
+#botao-voltar {
+  grid-column: 1/2;
+}
+
+#botao-proximo {
+  grid-column: 3/4;
+}
